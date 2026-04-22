@@ -101,10 +101,10 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus-snapshots</id>
-	      <name>antony Snapshot Nexus Repository </name>
-	      <url>http://172.31.31.161:8081/repository/jio-snapshot/</url>
-	    </snapshotRepository>
+  <id>nexus-snapshots</id>
+  <name>Snapshot Repo</name>
+  <url>http://172.31.31.161:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
 	    
 	</distributionManagement>
 	
