@@ -21,8 +21,9 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.160.183.204:9000</sonar.host.url>
-		<sonar.login>squ_0b7ab89b711cb59eac34127fe1353db63e38a48d</sonar.login> 
+		<sonar.host.url>http://34.229.138.212:9000/</sonar.host.url>
+		<sonar.login>antony</sonar.login>
+		<sonar.password>antony</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -95,16 +96,16 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus-releases</id>
+	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://172.31.31.161:8081/repository/flipkart-release/</url>
+	      <url>http://34.203.212.49:8081/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-  <id>nexus-snapshots</id>
-  <name>Snapshot Repo</name>
-  <url>http://172.31.31.161:8081/repository/maven-snapshots/</url>
-</snapshotRepository>
+	      <id>nexus</id>
+	      <name>KK FUNDA Snapshot Nexus Repository </name>
+	      <url>http:http://34.203.212.49:8081/repository/jio-snapshot/</url>
+	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
